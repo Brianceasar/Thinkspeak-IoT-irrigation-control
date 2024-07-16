@@ -7,10 +7,10 @@
 
 #define SOUND_SPEED 0.034
 
-const char* ssid="Aura";//"4GMIFI_9957";//"Savage";// "4GMIFI_9957";//replace subscribe with your WiFi SSID(Name)
-const char* password ="1234567890";//"sauvage2020";//"1234567890";//replace with Your Wifi Password name
+const char* ssid="#";//replace subscribe with your WiFi SSID(Name)
+const char* password ="#";//replace with Your Wifi Password name
 const char* host = "api.thingspeak.com";
-const char* myWriteAPIKey  = "HRLGUZIP7LDLG0Q7"; //copy yout ThingSpeak channel API Key.
+const char* myWriteAPIKey  = "#"; //replace with your ThingSpeak channel API Key.
 volatile byte pulseCount;
 long currentMillis = 0;
 long previousMillis2 = 0;
